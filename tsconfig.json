@@ -1,0 +1,33 @@
+{
+  // ***********************************************
+  // © 2022 Litera Corp. All Rights Reserved.
+  // ***********************************************
+  "compilerOptions": {
+      "target": "es5",
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "jsx": "react",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "removeComments": false,
+      "outDir": "dist",
+      "allowUnusedLabels": false,
+      "noImplicitReturns": true,
+      "noUnusedParameters": true,
+      "allowJs": true,
+      "lib": ["es7", "dom", "dom.iterable", "esnext"],
+      "pretty": true,
+      "typeRoots": ["node_modules/@types", "src", "src/types"],
+      "types": ["node"],
+      "resolveJsonModule": true,
+      "downlevelIteration": true
+  },
+  "exclude": ["node_modules", "wwwroot"],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "ts-node": {
+      "files": true
+  }
+}
